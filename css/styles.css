@@ -24,6 +24,8 @@ body {
     background-color: var(--main-bg-color);
     color: var(--primary-text-color);
     font-family: 'Roboto', 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
 }
 
 /* Список */
@@ -53,18 +55,21 @@ body {
     color: var(--style-design-color);
 }
 .nav-list {
-    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 /* Зв'язок, телефон і мейл */
 
 .connection {
-    font-size: 14px;
     color: var(--secondary-text-color);
+    font-weight: 500;
 }
 .connection-link {
     text-decoration: none;
     color: var(--secondary-text-color);
+    letter-spacing: 0.02em;
 }
 .connection :hover, .connection :focus {
     color:var(--style-design-color);
@@ -76,6 +81,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
+    line-height: 31px;
     text-decoration: none;
     color: var(--style-design-color);
 
@@ -84,6 +90,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
+    line-height: 31px;
     color: var(--logo-design-color);
 }
 
@@ -110,11 +117,13 @@ body {
     font-weight: 900;
     line-height: 1.36;
     text-align: center;
+    letter-spacing: 0.06em;
 }
 .banner-button {
-    font-size: 16;
+    font-size: 16px;
     font-weight: 700;
     line-height: 1.875;
+    letter-spacing: 0.06em;
     text-align: center;
     cursor: pointer;
     border: transparent;
@@ -148,10 +157,12 @@ body {
 .list-name {
     font-size: 16px;
     text-align: center;
+    line-height: 19px;
 }
 .job-title {
     font-size: 16px;
     text-align: center;
+    line-height: 19px;
 }
 
 
@@ -171,14 +182,16 @@ body {
 }
 .portfolio-button:hover, .portfolio-button:focus {
     background-color: var(--style-design-color);
+    color: var(--additional-text-color);
 }
 
 /* Проекти портфоліо*/
 
 .portfolio-title {
-    font-size: 18;
+    font-size: 18px;
     font-weight: 700;
     line-height: 2;
+    letter-spacing: 0.06em;
     color: var(--primary-text-color);
 }
 .description {
@@ -196,6 +209,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
+    line-height: 31px;
     color: var(--logo-footer-color);
 }
 .footer-link {
